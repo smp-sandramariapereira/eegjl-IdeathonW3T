@@ -34,9 +34,9 @@ O modelo de incentivos foi desenhado para equilibrar competição e colaboraçã
 
 | Formato da Equipe | Divisão do Prêmio Base | Bônus de Grupo (Fixo) | Bônus de Participação (Fixo) | Valor Final por Integrante |
 | :--- | :---: | :---: | :---: | :--- |
-| **Individual** | 100% da Colocação | USD 0 | USD 5 | 1º: USD 205 \| 2º: USD 105 \| 3º: USD 55 |
-| **Duplas** | 50% da Colocação | USD 15 | USD 8 | 1º: USD 123 \| 2º: USD 73 \| 3º: USD 48 |
-| **Trios** | 33,3% da Colocação | USD 35 | USD 12 | 1º: USD 114 \| 2º: USD 80 \| 3º: USD 64 |
+| **Individual** | 100% da Colocação | USD 5 | USD 5 | 1º: USD 200 \| 2º: USD 105 \| 3º: USD 55 |
+| **Duplas** | 50% da Colocação | USD 10 | USD 20 | 1º: USD 100 \| 2º: USD 73 \| 3º: USD 48 |
+| **Trios** | 33,3% da Colocação | USD 15 | USD 45 | 1º: USD 50 \| 2º: USD 80 \| 3º: USD 64 |
 
 ### 🏆 Aplicação Prática e Distribuição de Resultados
 Com base na avaliação oficial do Ideathon e na validação conjunta com a comunidade **BH onchain**, a divisão exata do pool de prêmios desenhou-se da seguinte maneira:
@@ -74,11 +74,9 @@ Com base na avaliação oficial do Ideathon e na validação conjunta com a comu
 
 ## 🔹 6. Requisitos de Comprovação Enviados
 Para fins de auditoria e governança junto à Superteam Brasil, ficam indexados os seguintes artefatos comprobatórios:
-1. Lista oficial de presença contendo a assinatura e os dados dos 14 estudantes do 3º ano técnico.
-2. Livro de registro de projetos e chaves de carteiras Solana (Wallets) dos vencedores.
-3. Dossiê fotográfico registrando as sessões de mentoria na escola e o painel de apresentação final no BHOnchain.
-4. Relatório financeiro discriminado com recibos de aplicação do Caixa de Atividades.
-5. Métricas de impacto educacional evidenciando o cumprimento dos requisitos de segurança de redes e manutenção corretiva de hardware da escola.
+1 - documento contendo os links dos reposítórios dos projetos
+2 - registro de carteira de cada participante
+3 - 
 
 ---
 
