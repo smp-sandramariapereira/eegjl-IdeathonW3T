@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ideathon W3T - Escola Geraldo Jardim Linhares</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --bg-principal: #0b0c10;
+            --bg-secundario: #1f2833;
+            --texto-principal: #ffffff;
+            --texto-secundario: #c5a1ff;
+            --solana-roxo: #9945FF;
+            --solana-verde: #14F195;
+            --cinza-claro: #a9b7c6;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: var(--bg-principal);
+            color: var(--texto-principal);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Header / Navbar */
+        header {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            background: rgba(11, 12, 16, 0.85);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            border-bottom: 1px solid rgba(153, 69, 255, 0.2);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-weight: 800;
+            font-size: 1.5rem;
+            background: linear-gradient(45deg, var(--solana-roxo), var(--solana-verde));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        nav a {
+            color: var(--texto-principal);
+            text-decoration: none;
+            margin-left: 25px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--solana-verde);
+        }
+
+        .btn-github {
+            background: transparent;
+            border: 2px solid var(--solana-verde);
+            color: var(--solana-verde);
+            padding: 8px 16px;
+            border-radius: 50px;
+            font-weight: 700;
+            transition: all 0.3s ease;
+        }
+
+        .btn-github:hover {
+            background: var(--solana-verde);
+            color: var(--bg-principal);
+            box-shadow: 0 0 15px rgba(20, 241, 149, 0.4);
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 180px 20px 100px 20px;
+            text-align: center;
+            background: radial-gradient(circle at 50% 30%, rgba(153, 69, 255, 0.15), transparent 60%);
+        }
+
+        .badge {
+            background: rgba(153, 69, 255, 0.1);
+            border: 1px solid var(--solana-roxo);
+            color: var(--texto-secundario);
+            padding: 6px 16px;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            line-height: 1.2;
+            max-width: 900px;
+            margin: 0 auto 25px auto;
+        }
+
+        .hero h1 span {
+            background: linear-gradient(90deg, var(--solana-roxo), var(--solana-verde));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: var(--cinza-claro);
+            max-width: 700px;
+            margin: 0 auto 40px auto;
+        }
+
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(45deg, var(--solana-roxo), #7024c4);
+            color: #fff;
+            padding: 15px 35px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            box-shadow: 0 4px 20px rgba(153, 69, 255, 0.4);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 25px rgba(153, 69, 255, 0.6);
+        }
+
+        /* Container Padrão */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 80px 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 50px;
+        }
+
+        .section-title span {
+            color: var(--solana-roxo);
+        }
+
+        /* Sobre o Projeto */
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+        }
+
+        .about-text h3 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            color: var(--solana-verde);
+        }
+
+        .about-text p {
+            color: var(--cinza-claro);
+            margin-bottom: 20px;
+            font-size: 1.05rem;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .stat-card {
+            background: var(--bg-secundario);
+            border: 1px solid rgba(255,255,255,0.05);
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .stat-card h4 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--solana-verde);
+            margin-bottom: 5px;
+        }
+
+        /* Pilares / Metodologia */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .feature-card {
+            background: var(--bg-secundario);
+            border: 1px solid rgba(153, 69, 255, 0.1);
+            padding: 40px 30px;
+            border-radius: 20px;
+            transition: transform 0.3s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--solana-roxo);
+        }
+
+        .feature-icon {
+            font-size: 2.5rem;
+            color: var(--solana-verde);
+            margin-bottom: 20px;
+        }
+
+        .feature-card h3 {
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+        }
+
+        .feature-card p {
+            color: var(--cinza-claro);
+            font-size: 0.95rem;
+        }
+
+        /* Vitrine de Projetos */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .project-card {
+            background: #161b22;
+            border: 1px solid rgba(255,255,255,0.05);
+            border-radius: 15px;
+            padding: 25px;
+            transition: all 0.3s;
+        }
+
+        .project-card:hover {
+            border-color: var(--solana-verde);
+            background: #1c212c;
+        }
+
+        .project-tag {
+            background: rgba(20, 241, 149, 0.1);
+            color: var(--solana-verde);
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        .project-card h3 {
+            font-size: 1.25rem;
+            margin-bottom: 10px;
+        }
+
+        .project-card p {
+            color: var(--cinza-claro);
+            font-size: 0.9rem;
+        }
+
+        /* Premiação (Gamificação) */
+        .rewards {
+            background: linear-gradient(180deg, var(--bg-principal), var(--bg-secundario), var(--bg-principal));
+        }
+
+        .rewards-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .reward-podium {
+            background: rgba(11, 12, 16, 0.5);
+            border: 2px solid rgba(153, 69, 255, 0.2);
+            border-radius: 20px;
+            padding: 40px 30px;
+            text-align: center;
+            width: 280px;
+            position: relative;
+        }
+
+        .reward-podium.first {
+            border-color: var(--solana-verde);
+            transform: scale(1.05);
+        }
+
+        .podium-place {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        .reward-value {
+            font-size: 2rem;
+            font-weight: 800;
+            color: #fff;
+            margin: 15px 0;
+        }
+
+        /* Rodapé */
+        footer {
+            background: #07080a;
+            border-top: 1px solid rgba(255,255,255,0.05);
+            padding: 40px 20px;
+            text-align: center;
+            color: var(--cinza-claro);
+            font-size: 0.9rem;
+        }
+
+        footer .brands {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 20px;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        /* Responsividade */
+        @media(max-width: 968px) {
+            .about-grid, .features-grid {
+                grid-template-columns: 1fr;
+            }
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            nav {
+                display: none; /* Simplificação para o exemplo */
+            }
+            .reward-podium.first {
+                transform: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="nav-container">
+            <div class="logo">Geraldo Jardim × Web3</div>
+            <nav>
+                <a href="#sobre">O Projeto</a>
+                <a href="#etapas">Fases</a>
+                <a href="#projetos">MVPs Alunos</a>
+                <a href="#premios">Incentivos</a>
+            </nav>
+            <a href="https://github.com/smp-sandramariapereira/Ideathon-W3T---Escola-Estadual-Geraldo-Jardim-Linhares" target="_blank" class="btn-github">
+                <i class="fab fa-github"></i> Repositório
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="badge">Inovação na Rede Pública</div>
+        <h1>Construindo o Futuro da Internet na <span>Escola Estadual Geraldo Jardim Linhares</span></h1>
+        <p>Estudantes do ensino médio mergulhando no ecossistema Solana, Blockchain, Inteligência Artificial e Economia de Incentivos Tokenizados.</p>
+        <div class="cta-buttons">
+            <a href="#projetos" class="btn-primary">Ver Projetos dos Alunos</a>
+        </div>
+    </section>
+
+    <!-- Sobre o Projeto -->
+    <section id="sobre" class="container">
+        <div class="about-grid">
+            <div class="about-text">
+                <div class="badge" style="border-color:var(--solana-verde); color:var(--solana-verde)">BH ONCHAIN</div>
+                <h3>Formando a Próxima Geração de Builders</h3>
+                <p>Integrado ao ecossistema estratégico de Belo Horizonte para liderar a Web3 a nível nacional, o projeto capacitou jovens da rede pública em tecnologias altamente disruptivas.</p>
+                <p>Mais do que conceitos teóricos de descentralização, os alunos participaram de uma imersão prática focada na arquitetura da rede Solana, utilizando alta performance (TPS) e taxas eficientes para criar soluções de impacto comunitário real.</p>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h4>8</h4>
+                    <p>MVPs Desenvolvidos</p>
+                </div>
+                <div class="stat-card">
+                    <h4>100%</h4>
+                    <p>Ensino Médio Público</p>
+                </div>
+                <div class="stat-card">
+                    <h4>Solana</h4>
+                    <p>Infraestrutura Base</p>
+                </div>
+                <div class="stat-card">
+                    <h4>AI</h4>
+                    <p>Integração de Dados</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Estrutura / Etapas -->
+    <section id="etapas" style="background-color: var(--bg-secundario);">
+        <div class="container">
+            <h2 class="section-title">Estrutura da <span>Capacitação</span></h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-book-open"></i></div>
+                    <h3>1. Onchain Literacy</h3>
+                    <p>Alfabetização digital focada em fundamentos de redes descentralizadas, funcionamento de carteiras virtuais (wallets), segurança e tokenização de ativos.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-code"></i></div>
+                    <h3>2. Desenvolvimento</h3>
+                    <p>Prototipagem prática de dApps e MVPs utilizando a rede Solana e ferramentas de inteligência artificial aplicadas aos problemas do cotidiano.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-users"></i></div>
+                    <h3>3. Metodologia Builders</h3>
+                    <p>Formação e organização de Squads de desenvolvimento para focar em soft skills essenciais como colaboração em equipe, open-source e liderança.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vitrine de Projetos (MVPs) -->
+    <section id="projects" class="container">
+        <h2 class="section-title">Vitrine Técnica: <span>Ideias que Viraram Código</span></h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-tag">Inteligência Artificial</div>
+                <h3>Cabana Conecta IA</h3>
+                <p>Mapeamento inteligente e processamento de dados locais integrando IA e dados do bairro para inclusão digital e social.</p>
+            </div>
+            <div class="project-card">
+                <div class="project-tag">SPL Tokens</div>
+                <h3>Biblioteca Tokenizada</h3>
+                <p>Sistema moderno focado em controle, descentralização e gestão de acervos digitais via ativos onchain.</p>
+            </div>
+            <div class="project-card">
+                <div class="project-tag">Acessibilidade</div>
+                <h3>Material Adaptado</h3>
+                <p>Aplicativo de tecnologia assistiva focado em inclusão social e distribuição de material educacional para a Educação Especial.</p>
+            </div>
+            <div class="project-card">
+                <div class="project-tag">NFTs & Economia</div>
+                <h3>Arte & Beleza Tokenizada</h3>
+                <p>Fomento ao empreendedorismo local e à economia criativa da comunidade por meio da tecnologia de tokens não-fungíveis.</p>
+            </div>
+            <div class="project-card">
+                <div class="project-tag">Gamificação</div>
+                <h3>Eternal Strike</h3>
+                <p>Projeto focado em mecânicas digitais interativas aplicadas à lógica de entretenimento moderno.</p>
+            </div>
+            <div class="project-card">
+                <div class="project-tag">Automação</div>
+                <h3>App Script & Caderno</h3>
+                <p>Otimização de processos educacionais, rotinas escolares diárias e modernização de organização de materiais de estudos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Premiação e Tokenomics -->
+    <section id="premios" class="rewards">
+        <div class="container">
+            <h2 class="section-title">Modelo de Incentivo <span>(Hackathon)</span></h2>
+            <p style="text-align: center; max-width: 600px; margin: -30px auto 50px auto; color: var(--cinza-claro);">
+                Simulando a economia de recompensas nativa do mercado Web3, os alunos foram premiados de acordo com os resultados e incentivo à colaboração em equipes:
+            </p>
+            <div class="rewards-container">
+                <div class="reward-podium">
+                    <div class="podium-place">🥈</div>
+                    <h3>2º Lugar</h3>
+                    <div class="reward-value">USD 100</div>
+                    <p style="color: var(--cinza-claro);">Financiamento para desenvolvimento do MVP</p>
+                </div>
+                <div class="reward-podium first">
+                    <div class="podium-place">🥇</div>
+                    <h3>1º Lugar</h3>
+                    <div class="reward-value" style="color: var(--solana-verde);">USD 200</div>
+                    <p style="color: var(--cinza-claro);">Premiação máxima para o projeto destaque</p>
+                </div>
+                <div class="reward-podium">
+                    <div class="podium-place">🥉</div>
+                    <h3>3º Lugar</h3>
+                    <div class="reward-value">USD 50</div>
+                    <p style="color: var(--cinza-claro);">Recompensa por execução e engenhosidade técnica</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="brands">
+            <span>VEGA</span> • <span>W3T</span> • <span>SOLANA</span> • <span>BH ONCHAIN</span>
+        </div>
+        <p>© 2026 Ideathon W3T - Escola Estadual Geraldo Jardim Linhares.</p>
+        <p style="font-size: 0.8rem; margin-top: 10px; color: #555;">O futuro da Web3 também está sendo construído dentro da escola pública.</p>
+    </footer>
+
+</body>
+</html>
