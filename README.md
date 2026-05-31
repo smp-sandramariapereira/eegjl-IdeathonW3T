@@ -1,7 +1,7 @@
 # Relatório Final de Avaliação - 1º Trimestre
 ## Curso Técnico de Informática | 3º Ano
 
-Este repositório centraliza o relatório de avaliação consolidada dos alunos do 3º ano do Curso Técnico de Informática referente ao 1º Trimestre. A avaliação foi baseada em dois projetos principais que integraram competências técnicas, metodologias ágeis e aplicação prática na comunidade.
+Este repositório centraliza o relatório de avaliação consolidada dos alunos do 3º ano do Curso Técnico de Informática referente ao 1º Trimestre. de 2026 A avaliação foi baseada em dois projetos principais que integraram competências técnicas, metodologias ágeis e aplicação prática na comunidade.
 
 ---
 
