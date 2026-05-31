@@ -61,24 +61,25 @@ Com base na avaliação oficial do Ideathon e na validação conjunta com a comu
 ---
 
 ## 🔹 5. Portfólio Consolidado de Soluções Criadas
-1. **Eternal Strike 🥇 (1º Lugar):** *Kaua Alves, Pedro Henrique e Luiz Emanuel.* Plataforma gamificada em blockchain Solana para gerenciamento e registro imutável de competições e recordes esportivos escolares.
-2. **CabanaPay 🥉 (3º Lugar):** *Maria Eduarda e Isabelle Christine.* Gateway descentralizado para inclusão financeira e facilitação de microtransações via QR Code voltado ao comércio do bairro Cabana.
-3. **Biblioteca Digital GJL 🥉 (3º Lugar):** *Aysser Rafael, Vando Silvano e Lucas Gustavo.* Sistema automatizado de acervo via OCR integrado a dinâmicas de gamificação e recompensas Web3 para a E.E. Geraldo Jardim Linhares.
-4. **Cabana do Acolhimento:** *Izabelly Luize.* Centralizador inteligente de dados socioespaciais e utilidade pública para aproximar os moradores de serviços sociais.
-5. **ArtChain Web3:** *Isabela Vitoria.* Marketplace de economia criativa para impulsionar e monetizar de forma direta a produção de artistas independentes locais.
-6. **Prova On-Chain:** *Yasmin Melissa.* Sistema híbrido de automação e auditoria que criptografa e registra históricos acadêmicos e avaliações.
-7. **EduChain:** *Milena Soares e Fabio Maciel.* Plataforma mobile flexível com foco no cumprimento de metas pedagógicas assíncronas para mitigar a evasão escolar por motivos de trabalho.
-8. **Personalização para Educação Especial:** *William Geovani.* Aplicação focada na personalização de jornadas de aprendizagem para a Educação Especial e adaptação pedagógica acessível.
+1. **Eternal Strike 🥇 (1º Lugar):** *Kaua Alves, Pedro Henrique e Luiz Emanuel.* Plataforma gamificada em blockchain Solana para gerenciamento e registro imutável de competições e recordes esportivos escolares. | https://github.com/Tuuubas/ETHERNAL-STRIKE-The-Solana-Protocol
+2. **CabanaPay 🥉 (3º Lugar):** *Maria Eduarda e Isabelle Christine.* Gateway descentralizado para inclusão financeira e facilitação de microtransações via QR Code voltado ao comércio do bairro Cabana. | https://github.com/santosmab/Cabana-Conecta-IA
+3. **Biblioteca Digital GJL 🥉 (2º Lugar):** *Aysser Rafael, Vando Silvano e Lucas Gustavo.* Sistema automatizado de acervo via OCR integrado a dinâmicas de gamificação e recompensas Web3 para a E.E. Geraldo Jardim Linhares. | https://github.com/Aysser22/Biblioteca-Digital-GJL
+4. **Cabana do Acolhimento:** *Izabelly Luize.* Centralizador inteligente de dados socioespaciais e utilidade pública para aproximar os moradores de serviços sociais. | https://github.com/mendesluize/Cabana-conecta-IA
+5. **ArtChain Web3:** *Isabela Vitoria.* Marketplace de economia criativa para impulsionar e monetizar de forma direta a produção de artistas independentes locais. | https://github.com/Isabelaxzkkj202/ArtChain
+6. **Prova On-Chain:** *Yasmin Melissa.* Sistema híbrido de automação e auditoria que criptografa e registra históricos acadêmicos e avaliações. | https://github.com/Yasmin710-135/AppScript-Yasmin
+7. **EduChain:** *Milena Soares e Fabio Maciel.* Plataforma mobile flexível com foco no cumprimento de metas pedagógicas assíncronas para mitigar a evasão escolar por motivos de trabalho. | https://github.com/fabio-maciel02ti/Caderno-Digital-MF
+8. **Personalização para Educação Especial:** *William Geovani.* Aplicação focada na personalização de jornadas de aprendizagem para a Educação Especial e adaptação pedagógica acessível. - aluno educação especial.
 
 ---
 
 ## 🔹 6. Requisitos de Comprovação Enviados
 Para fins de auditoria e governança junto à Superteam Brasil, ficam indexados os seguintes artefatos comprobatórios:
-1 - documento contendo os links dos reposítórios dos projetos
-2 - registro de carteira de cada participante
-3 - 
+1 - documento contendo os links dos reposítórios dos projetos;
+2 - Registros Fotográficos dos eventos realizados;
+3 - Documentação dos projetos e de planejamentos;
+4 - Link de acesso aos vídeos apresentados pelos alunos.
 
 ---
 
 ## 🔹 7. Conclusão e Modelo de Impacto
-O Ideathon W3T da E.E. Geraldo Jardim Linhares validou com sucesso a eficácia do modelo de incentivos descentralizados na educação pública. O ecossistema não apenas gerou software funcional nas fronteiras da Web3, mas promoveu cidadania, transformando alunos de periferia em criadores de soluções globais, eficientes e seguras. O projeto cumpre integralmente os requisitos para a liberação da referida Bounty.
+O Ideathon W3T da E.E. Geraldo Jardim Linhares validou com sucesso a eficácia do modelo de incentivos descentralizados na educação pública. O ecossistema não apenas gerou software no estágio MVP nas fronteiras da Web3, mas promoveu cidadania, transformando alunos de periferia em criadores de soluções globais, eficientes e seguras. O projeto cumpre integralmente os requisitos para a liberação da referida Bounty.
