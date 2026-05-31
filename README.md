@@ -11,11 +11,11 @@ Este repositório centraliza o relatório de avaliação consolidada dos alunos 
 O Trabalho de Conclusão do Trimestre (TCT) foi realizado no formato de uma *sprint* intensiva e *Ideathon* denominada **"5 Dias com Solana"**. A atividade integrou diversas disciplinas técnicas, avaliando o produto final, o processo de desenvolvimento e a postura profissional dos estudantes.
 
 O cronograma seguiu a seguinte estrutura de entregáveis diários:
-* **Dia 1: Descoberta & Ideação** ➔ Problema definido + ideia validada + proposta de valor clara.
-* **Dia 2: Estruturando a Solução** ➔ Fluxo do usuário + desenho inicial da solução (wireframe).
-* **Dia 3: MVP & Blockchain** ➔ MVP enxuto com prioridades claras (definição de uso de tokens, NFTs ou recursos Solana).
-* **Dia 4: Construção** ➔ MVP em desenvolvimento + base técnica sólida (arquitetura, repositório e tarefas divididas).
-* **Dia 5: Finalização & Pitch** ➔ MVP funcional + pitch pronto para apresentação.
+* **Etapa 1: Descoberta & Ideação** ➔ Problema definido + ideia validada + proposta de valor clara.
+* **Etapa 2: Estruturando a Solução** ➔ Fluxo do usuário + desenho inicial da solução (wireframe).
+* **Etapa 3: MVP & Blockchain** ➔ MVP enxuto com prioridades claras (definição de uso de tokens, NFTs ou recursos Solana).
+* **Etapa 4: Construção** ➔ MVP em desenvolvimento + base técnica sólida (arquitetura, repositório e tarefas divididas).
+* **Etapa 5: Finalização & Pitch** ➔ MVP funcional + pitch pronto para apresentação.
 
 ### 2. Disciplinas e Conteúdos Avaliados
 O projeto foi estruturado para consolidar o conhecimento prático em cinco pilares fundamentais:
