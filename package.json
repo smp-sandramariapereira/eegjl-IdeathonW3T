@@ -1,0 +1,31 @@
+{
+  "name": "provaonchain",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ProvaOnChain — Verifiable Academic Evidence on Ethereum",
+  "scripts": {
+    "clean": "hardhat clean",
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy:local": "hardhat run scripts/deploy.ts --network localhost",
+    "deploy:sepolia": "hardhat run scripts/deploy.ts --network sepolia",
+    "issue:evidence": "hardhat run scripts/issue-evidence.ts --network localhost",
+    "issue:evidence:sepolia": "hardhat run scripts/issue-evidence.ts --network sepolia",
+    "verify:evidence": "hardhat run scripts/verify-evidence.ts --network localhost",
+    "verify:evidence:sepolia": "hardhat run scripts/verify-evidence.ts --network sepolia"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.1.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "@nomicfoundation/hardhat-network-helpers": "^1.1.2",
+    "@types/chai": "^4.3.20",
+    "@types/node": "^22.15.30",
+    "chai": "^4.5.0",
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.7",
+    "hardhat": "^2.22.17",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
