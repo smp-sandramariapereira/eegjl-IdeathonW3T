@@ -98,6 +98,15 @@ npm run deploy:local
 
 This deploys to the local Hardhat node running at `http://127.0.0.1:8545`.
 
+## Minimal interface
+
+Open [index.html](index.html) in a browser with a wallet extension connected to the same network as the deployed contract.
+
+The page provides two areas:
+
+- Issue evidence
+- Verify evidence
+
 ## Sepolia deploy
 
 ```bash
@@ -134,7 +143,7 @@ See [docs/PRIVACY-MODEL.md](docs/PRIVACY-MODEL.md) for the onchain/offchain spli
 
 ## Limitations
 
-- no frontend yet;
+- minimal frontend only;
 - no Sepolia deployment has been performed in this stage;
 - no production integration exists;
 - no student data is stored onchain;
