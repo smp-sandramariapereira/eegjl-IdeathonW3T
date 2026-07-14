@@ -1,20 +1,16 @@
-# Bounty Privada — Organização do Ideathon W3T (Escola Estadual Geraldo Jardim Linhares)
+# Ideathon W3T - Escola Estadual Geraldo Jardim Linhares
 
-**Sponsor:** Superteam Brasil  
-**Destinatária:** Profa. Sandra Pereira  
-**Recompensa Total:** USD 1.000 (em USDC)  
+**Parceria:** Superteam Brasil  - Solana Foudation
+**Realização:** Profa. Sandra Pereira  
+**Recompensa Total:** 2.500,00  
 **Local:** Escola Estadual Geraldo Jardim Linhares — SRE Metropolitana B — Belo Horizonte | MG  
-**Prazo de Execução:** Durante o BH on Chain  
-**Prazo de Comprovação:** Até 30 dias após o evento  
-
+**Prazo de Execução:** Durante o BH on Chain
 ---
 
 ## 🔹 1. Sobre o Projeto
 A **Superteam Brasil** patrocina a realização do Ideathon W3T na Escola Estadual Geraldo Jardim Linhares com o propósito de introduzir estudantes do 3º ano do Curso Técnico de Informática ao ecossistema Web3 e à blockchain Solana de forma 100% prática. 
 
-Utilizando os pilares da Educação 4.0, o projeto incentiva a colaboração, o empreendedorismo tecnológico, a soberania de dados e a competitividade saudável, mitigando as barreiras tradicionais de aprendizado por meio da inovação de impacto real. 
-
-A organização geral, a execução metodológica e a administração financeira da verba ficam sob responsabilidade exclusiva da **Profa. Sandra Pereira**.
+Utilizando os pilares da Educação 4.0, o projeto incentiva a colaboração, o empreendedorismo tecnológico, a soberania de dados e a competitividade saudável, mitigando as barreiras tradicionais de aprendizado por meio da inovação de impacto real.
 
 ---
 
@@ -22,8 +18,7 @@ A organização geral, a execução metodológica e a administração financeira
 A responsável organizou e executou as dinâmicas logísticas, divisão de equipes, mentoria técnica das disciplinas integradas e a culminância com banca avaliadora externa. O escopo abrangeu:
 * Condução de uma *sprint* intensiva de 5 dias baseada no ecossistema Solana (*Ideação, Prototipagem, Definição de MVP, Construção e Pitch*).
 * Integração das diretrizes da BNCC (*Cultura Digital, Empreendedorismo e Pensamento Crítico*) com a grade técnica de TI (*Programação Web, Banco de Dados, Redes, Design e Hardware*).
-* Distribuição do pool de prêmios de USD 500 diretamente aos alunos com base no mérito e engajamento coletivo.
-* Administração de USD 500 complementares como caixa de atividades para subsidiar despesas operacionais, logísticas e de conectividade dos estudantes.
+* Distribuição do pool de prêmios de R$ 2.500,00 para os alunos, com base no mérito e engajamento coletivo.
 
 ---
 
