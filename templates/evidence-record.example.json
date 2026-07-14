@@ -1,0 +1,9 @@
+{
+  "example": true,
+  "projectId": "library-project-demo",
+  "stage": 5,
+  "evidenceHash": "0x...",
+  "evidenceURI": "https://github.com/example/project/commit/example",
+  "issuer": "0x...",
+  "issuedAt": "planned"
+}
