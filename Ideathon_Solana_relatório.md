@@ -35,7 +35,6 @@ Como reconhecimento pelo desempenho no trimestre, 3 alunos destaque foram convid
 
 ---
 
-```md
 ## 🔹 5. Portfólio de Soluções
 
 O Ideathon Web3 resultou na criação de oito soluções tecnológicas voltadas a desafios educacionais, sociais, culturais e comunitários. Os projetos foram desenvolvidos pelos estudantes a partir da identificação de problemas reais, da definição de propostas de valor e da construção de protótipos e produtos mínimos viáveis.
@@ -99,9 +98,6 @@ A solução foi desenvolvida por um estudante da Educação Especial, conferindo
 
 - **Equipe:** William Geovani
 - **Repositório:** não informado
-```
-
-
 ---
 
 ## 🔹 6. Infraestrutura e Operacional 🛠️
